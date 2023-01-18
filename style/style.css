@@ -1,0 +1,627 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        font-family: 'Exo', sans-serif;
+        background-color: #0A0A0B;
+    }
+    
+    .container {
+        width: 1280px;
+        margin: 0 auto;
+        padding: 40px;
+    }
+    
+    .header_logo::after {
+        content: "";
+        display: block;
+        background-image: url();
+    }
+    
+    .header_wrapper {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .header_logo_link {
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;
+    }
+    
+    .header_list {
+        list-style: none;
+        width: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .header_list_etam_link {
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;
+    }
+    
+    .main_title {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 140%;
+        color: white;
+    }
+    
+    .section_top {
+        width: 406px;
+        margin: 0 auto;
+    }
+    
+    .section_top_detail {
+        margin: 20px 0 48px;
+    }
+    
+    .section_top_detail_title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        color: white;
+    }
+    
+    .section_top_detail_etam {
+        margin: 12px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: white;
+    }
+    
+    .section_top_detail_etam::before {
+        content: "";
+        display: block;
+        background-image: url(../imgs/imges/Vector.png);
+        background-size: 13px 18px;
+        background-color: brown;
+    }
+    
+    .section_top_main_img {
+        width: 380px;
+        height: 222.22px;
+    }
+    
+    .km {
+        width: 32px;
+        height: 20px;
+    }
+    
+    .static_value {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        color: white;
+    }
+    
+    .statis_text_top {
+        color: #888B91;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 140%;
+    }
+    
+    .sectin_top_statis_list {
+        margin: 48px 0 56px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .section_top_statis_list_etam {
+        width: 89px;
+        height: 104px;
+    }
+    
+    .statis_top_etam {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .static_value {
+        display: flex;
+        justify-content: center;
+        margin-top: 22px;
+    }
+    
+    .statis_text_top {
+        text-align: center;
+    }
+    
+    .section_top_btn {
+        position: relative;
+    }
+    
+    .ection_top_start {
+        width: 70px;
+        height: 70px;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 140%;
+        display: flex;
+        margin-left: 150px;
+        padding: 25px 19px;
+        color: white;
+        border: 2px solid #099260;
+        border-radius: 50%;
+    }
+    
+    .ection_top_start_span {
+        position: absolute;
+        top: -10px;
+        left: 140.5px;
+        display: block;
+        width: 90px;
+        height: 90px;
+        border: 2px solid #099260;
+        border-radius: 50%;
+    }
+    
+    .section_midle {
+        position: relative;
+        margin: 144px 85px 221px;
+        background-image: url(../imgs/imges/about\ 1\ \(1\).png);
+        background-size: 480px 320px;
+        background-repeat: no-repeat;
+    }
+    
+    .section_midle_title {
+        width: 209px;
+        height: 68px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        color: #F1F2F3;
+    }
+    
+    .section_midle_rith {
+        margin-left: 570px;
+    }
+    
+    .section_midle_text {
+        margin: 24px 0 62px;
+        width: 401px;
+        height: 88px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #BABEC4;
+    }
+    
+    .section_midle_link {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;
+        text-decoration: none;
+        padding: 14px 32px;
+        width: 149px;
+        height: 50px;
+        background-color: #4177DC;
+        border-radius: 4px;
+        color: white;
+    }
+    
+    .section_midle_stl {
+        position: absolute;
+        top: 210px;
+        right: 550px;
+        width: 197px;
+        height: 104px;
+        background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(8px);
+        border-radius: 20px;
+    }
+    
+    .section_midle_stl_title {
+        display: flex;
+        justify-content: center;
+        margin-top: 16px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 140%;
+        color: white;
+    }
+    
+    .section_midle_stl_txt {
+        display: flex;
+        justify-content: center;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 140%;
+        color: #ffff;
+        text-align: center;
+        padding: 8px 20px 16px;
+    }
+    
+    .section_next_title {
+        margin-left: 420px;
+        width: 278px;
+        height: 68px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        color: #F1F2F3;
+    }
+    
+    .section_next_list {
+        margin-top: 64px;
+        list-style: none;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: 130px;
+    }
+    
+    .section_next_list_etam {
+        position: relative;
+        width: 258px;
+        height: 328px;
+        background: #252532;
+        background: -webkit-linear-gradient(141deg, #252532 0%, #000000 100%);
+        background: linear-gradient(141deg, #252532 0%, #000000 100%);
+        border-radius: 20px;
+    }
+    
+    .section_next_list_etam_info {
+        padding: 20px;
+        display: block;
+    }
+    
+    .section_next_list_etam_title {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        color: white;
+    }
+    
+    .section_next_list_etam_text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #BABEC4;
+    }
+    
+    .section_next_card_img {
+        margin-left: 56px;
+    }
+    
+    .section_next_info {
+        position: relative;
+        display: grid;
+        grid-template-columns: 102px 110px;
+    }
+    
+    .card_info {
+        padding: 5px 5px;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 140%;
+        color: #FFFFFF;
+    }
+    
+    .tame::before {
+        content: "";
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+        background-image: url(../imgs/imges/tame.png);
+        background-size: 16px 16px;
+        margin: 2px 5px 0;
+    }
+    
+    .speed::before {
+        content: "";
+        width: 13px;
+        height: 13px;
+        display: inline-block;
+        background-image: url(../imgs/imges/speed.png);
+        background-repeat: no-repeat;
+        background-size: 13.3px 13.3px;
+        margin: 2px 5px 0;
+    }
+    
+    .elaktr::before {
+        content: "";
+        top: 20px;
+        right: 50px;
+        width: 13px;
+        height: 13px;
+        display: inline-block;
+        background-image: url(../imgs/imges/elaktr.png);
+        background-repeat: no-repeat;
+        background-size: 13.3px 13.3px;
+        margin: 2px 5px 0;
+    }
+    
+    .narx {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 140%;
+        color: white;
+        display: block;
+        padding: 30px 20px;
+    }
+    
+    .section_next_buttn {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    
+    .section_box {
+        margin-top: 120px;
+        width: 12800px;
+        height: 705.42px;
+        background-image: url(../imgs/imges/sistema.png);
+        background-size: 1280px 705px;
+        background-repeat: no-repeat;
+    }
+    
+    .section_box_title {
+        margin-left: 550px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        color: white;
+    }
+    
+    .section_box_main {
+        position: relative;
+    }
+    
+    .section_box_img {
+        position: absolute;
+        top: 98px;
+        left: 540px;
+    }
+    
+    .section_box_span {
+        position: absolute;
+        width: 127px;
+        height: 92px;
+        background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(8px);
+        border-radius: 20px;
+    }
+    
+    .section_box_span_title {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 140%;
+        color: white;
+        margin-top: 12px;
+        padding: 0 39px;
+    }
+    
+    .section_box_span_text {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 140%;
+        color: white;
+        padding: 8px 40px;
+    }
+    
+    .top_left {
+        left: 463px;
+        top: 161px;
+    }
+    
+    .rigth_midle {
+        left: 690px;
+        top: 229px;
+    }
+    
+    .left_bottom {
+        left: 463px;
+        top: 384px;
+    }
+    
+    .section_luxury_cars {
+        margin-top: 72px;
+    }
+    
+    .section_luxury_cars_title {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        margin-left: 550px;
+        color: white;
+    }
+    
+    .section_luxury_cars_icons {
+        width: 30%;
+        margin: 48px auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .section_luxury_cars_span {
+        display: block;
+        width: 52px;
+        height: 52px;
+        border-radius: 16px;
+        background-color: #111213;
+    }
+    
+    .section_luxury_cars_spans {
+        display: block;
+        width: 52px;
+        height: 52px;
+        background-color: #4177DC;
+        border-radius: 16px;
+    }
+    
+    .section_luxury_cars_all {
+        padding: 15px;
+    }
+    
+    .section_luxury_cars_span_img {
+        padding: 13px;
+    }
+    
+    .section_luxury_cars_span_imgs {
+        padding: 20px 13px;
+    }
+    
+    .section_luxury_cars_list {
+        margin-top: 64px;
+        list-style: none;
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(3, 260px);
+        gap: 72px;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: 130px;
+    }
+    
+    .section_luxury_cars_list_etam {
+        position: relative;
+        width: 258px;
+        height: 328px;
+        background: #252532;
+        background: -webkit-radial-gradient(circle, #252532 0%, #000000 100%);
+        background: radial-gradient(circle, #252532 0%, #000000 100%);
+        border-radius: 20px;
+    }
+    
+    .section_next_card_imgs {
+        padding: 10px 18px;
+    }
+    
+    .narx_uchun {
+        padding: 62px 25px;
+        display: block;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 140%;
+        color: white;
+    }
+    
+    .section_end {
+        display: flex;
+        align-items: center;
+        margin-top: 72px;
+        margin: 72px auto;
+        width: 1280px;
+        height: 392px;
+        background-image: url(../imgs/imges/bcg_img.png);
+        background-size: 1280px 392px;
+    }
+    
+    .section_end_box {
+        padding: 72px 100px;
+    }
+    
+    .section_end_title {
+        width: 312px;
+        height: 68px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        color: white;
+    }
+    
+    .section_end_text {
+        width: 375px;
+        height: 66px;
+        margin: 32px 0 48px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #BABEC4;
+    }
+    
+    .section_end_link {
+        text-decoration: none;
+        padding: 14px 32px;
+        color: white;
+        width: 174px;
+        height: 50px;
+        background: #4177DC;
+        border-radius: 4px;
+    }
+    
+    .section_end_img {
+        width: 450px;
+        height: 201.99px;
+    }
+    
+    .article_list {
+        width: 80%;
+        margin-left: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .article_img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .footer_text {
+        width: 198px;
+        height: 54px;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 140%;
+        color: white;
+        padding: 24px 0;
+    }
+    
+    .footer_list {
+        list-style: none;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    
+    strong {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 140%;
+        color: #F1F2F3;
+    }
+    
+    .footer_info_list_etam_link {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #BABEC4;
+        text-decoration: none;
+        padding: 12px 0;
+        display: block;
+    }
+    
+    .footer_lin_img {
+        margin-top: 26px;
+        width: 104px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
